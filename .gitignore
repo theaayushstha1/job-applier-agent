@@ -1,0 +1,21 @@
+# User data (contains personal information)
+data/profile.json
+data/applications.json
+
+# Generated files
+applications/
+screenshots/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Node modules (if any)
+node_modules/

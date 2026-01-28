@@ -1,0 +1,90 @@
+{
+  "personal": {
+    "name": "Your Full Name",
+    "email": "your.email@example.com",
+    "phone": "123-456-7890",
+    "location": "City, State"
+  },
+  "links": {
+    "website": "https://yourwebsite.com",
+    "linkedin": "linkedin.com/in/yourprofile",
+    "github": "github.com/yourusername"
+  },
+  "education": {
+    "school": "University Name",
+    "degree": "BS Computer Science",
+    "gpa": "3.9",
+    "graduation": "May 2026",
+    "honors": ["Dean's List", "Magna Cum Laude"]
+  },
+  "headline": "Software Engineer | Your School '26 | Brief achievement",
+  "summary": "2-3 sentence professional summary highlighting your key strengths and what you're looking for.",
+  "top_skills": [
+    "Python",
+    "JavaScript",
+    "React",
+    "Node.js",
+    "AWS",
+    "SQL"
+  ],
+  "all_skills": {
+    "languages": ["Python", "JavaScript", "TypeScript", "Java", "SQL"],
+    "frameworks": ["React", "Node.js", "Express", "FastAPI", "Django"],
+    "cloud": ["AWS", "GCP", "Azure", "Docker", "Kubernetes"],
+    "databases": ["PostgreSQL", "MongoDB", "Redis", "MySQL"],
+    "tools": ["Git", "Linux", "CI/CD", "Agile"]
+  },
+  "flagship_project": {
+    "name": "Your Best Project",
+    "description": "Brief description of what it does and the impact",
+    "tech_stack": ["React", "Python", "AWS"],
+    "metrics": {
+      "users": "100+",
+      "key_metric": "Describe a quantifiable achievement"
+    },
+    "url": "https://project-url.com"
+  },
+  "experience": [
+    {
+      "title": "Software Engineering Intern",
+      "company": "Company Name",
+      "location": "City, State",
+      "dates": "Jun 2024 - Aug 2024",
+      "bullets": [
+        "Achievement 1 with metrics",
+        "Achievement 2 with impact",
+        "Technologies used"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Project Name",
+      "description": "What it does",
+      "tech": ["Tech1", "Tech2"],
+      "url": "https://...",
+      "highlights": ["Key achievement or metric"]
+    }
+  ],
+  "work_authorization": {
+    "authorized": true,
+    "requires_sponsorship": false,
+    "visa_status": "US Citizen"
+  },
+  "preferences": {
+    "willing_to_relocate": true,
+    "location_preference": ["Remote", "New York", "San Francisco", "Seattle"],
+    "job_types": ["Full-time", "Internship"],
+    "salary_expectation": "Negotiable",
+    "start_date": "Flexible"
+  },
+  "application_defaults": {
+    "years_experience": "0-2",
+    "education_level": "Bachelor's",
+    "gender": "Prefer not to say",
+    "race_ethnicity": "Prefer not to say",
+    "veteran_status": "No",
+    "disability_status": "No"
+  },
+  "resume_file": "~/job-applier-agent/resume/MyResume.pdf"
+}
