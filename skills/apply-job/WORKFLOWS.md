@@ -45,15 +45,31 @@ This file contains step-by-step workflows for the job application agent.
 
 ### Phase 2: Prepare Materials
 
+**IMPORTANT:** Follow [formatting_rules.md](../../resume/formatting_rules.md) exactly for resume tailoring!
+
 ```
 1. Read profile from ~/job-applier-agent/data/profile.json
 
-2. Tailor resume:
-   - Read ~/job-applier-agent/resume/master_resume.md
-   - Match JD keywords to your skills
-   - Reorder projects (most relevant first)
-   - Emphasize matching experience
-   - Save to ~/job-applier-agent/applications/<Company>/resume_<company>.md
+2. Tailor resume (CRITICAL - follow formatting_rules.md):
+   a. Copy master Python script (create_resume.py)
+   b. Analyze JD and extract:
+      - Required technologies (Python, React, etc.)
+      - Nice-to-have technologies
+      - Scale/performance language ("billions", "high-traffic")
+      - Domain keywords (AI, data pipelines, etc.)
+   c. Modify CONTENT ONLY in the copied script:
+      - Reword bullets to match JD terminology
+      - Bold technologies that match JD exactly
+      - Reorder skills section (JD technologies first)
+      - Reorder projects (most relevant first)
+      - Add power words matching JD focus:
+        * Scale: "high-traffic", "thousands of requests"
+        * Performance: "sub-second", "reduced latency"
+        * Data: "data pipelines", "real-time"
+        * AI: "AI-powered", "LLMs", "ML models"
+   d. NEVER modify: functions, margins, fonts, spacing
+   e. Save script to ~/job-applier-agent/applications/<Company>/
+   f. Generate DOCX: python create_<company>_resume.py
 
 3. Generate cover letter:
    - Read ~/job-applier-agent/templates/cover_letter.md

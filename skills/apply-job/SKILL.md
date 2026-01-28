@@ -51,6 +51,8 @@ Before first use, ensure these files exist:
 | `$APPLIER_HOME/data/profile.json` | Your personal info (from template) |
 | `$APPLIER_HOME/data/applications.json` | Application tracking |
 | `$APPLIER_HOME/resume/master_resume.md` | Your complete resume |
+| `$APPLIER_HOME/resume/formatting_rules.md` | **CRITICAL** - Exact resume formatting specs |
+| `$APPLIER_HOME/resume/create_resume.py` | Master Python script for DOCX generation |
 | `$APPLIER_HOME/templates/cover_letter.md` | Cover letter template |
 | `$APPLIER_HOME/templates/cold_email.md` | Cold email template |
 
@@ -98,14 +100,43 @@ See [SETUP.md](SETUP.md) for installation instructions.
 Score >= 5.0 → AUTO-PROCEED | Score < 5.0 → Notify user
 
 ### Step 3: Tailor Resume
+
+**CRITICAL:** Follow [formatting_rules.md](../../resume/formatting_rules.md) exactly!
+
 ```
 1. Read $APPLIER_HOME/resume/master_resume.md
-2. Reorder projects by relevance to JD
-3. Emphasize matching skills (use JD keywords)
-4. Save to $APPLIER_HOME/applications/<Company>/
+2. Copy master Python script (create_resume.py)
+3. Analyze JD for:
+   - Required technologies
+   - Nice-to-have technologies
+   - Scale/performance language
+   - Domain keywords (AI, data, etc.)
+4. Modify CONTENT ONLY in the copied script:
+   - Reword bullets to match JD language
+   - Bold technologies that match JD exactly
+   - Reorder skills (JD technologies first)
+   - Reorder projects (most relevant first)
+   - Add power words matching JD focus
+5. NEVER modify functions, margins, font sizes, or spacing
+6. Save tailored script to $APPLIER_HOME/applications/<Company>/
+7. Generate DOCX with: python create_<company>_resume.py
 ```
 
-**Rules**: Never add fake skills. Never fabricate metrics. Only reorder/emphasize.
+**Tailoring Rules:**
+- NEVER add skills you don't have
+- NEVER fabricate metrics or achievements
+- DO reword bullets using JD terminology
+- DO bold exact technologies from JD
+- DO reorder sections for relevance
+- DO add scale/performance words if JD mentions them
+
+**Power Words by JD Focus:**
+| JD Focus | Use These Words |
+|----------|-----------------|
+| Scale | "high-traffic", "thousands of requests", "production system" |
+| Performance | "sub-second", "reduced latency", "optimized" |
+| Data | "data pipelines", "real-time", "event processing" |
+| AI | "AI-powered", "LLMs", "ML models" |
 
 ### Step 4: Generate Cover Letter
 ```
@@ -283,6 +314,7 @@ Thanks!
 | [WORKFLOWS.md](WORKFLOWS.md) | Detailed step-by-step workflows |
 | [SETUP.md](SETUP.md) | Installation & configuration |
 | [profile-template.json](profile-template.json) | Profile data template |
+| [formatting_rules.md](../../resume/formatting_rules.md) | **CRITICAL** - Exact DOCX formatting specs |
 
 ---
 
