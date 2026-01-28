@@ -1,13 +1,10 @@
 ---
 name: apply-job
-version: 3.0.0
-description: |
-  Cross-platform job application automation agent. Extracts job descriptions,
-  tailors resumes, generates cover letters, auto-fills applications via Playwright,
-  and sends recruiter outreach (email first, then LinkedIn).
-
-  Triggers: job application, apply to job, job search, recruiter outreach,
-  cold email, LinkedIn connection, resume tailor, cover letter
+description: Automated job applications with AI-powered resume tailoring, cover letters, and recruiter outreach via email and LinkedIn.
+license: MIT
+metadata:
+  author: theaayushstha1
+  version: "3.1.0"
 allowed-tools:
   - Read
   - Write
