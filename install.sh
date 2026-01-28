@@ -12,10 +12,10 @@ mkdir -p ~/.claude/skills/apply-job
 
 # Download skill files
 echo "📥 Downloading skill files..."
-curl -fsSL "https://raw.githubusercontent.com/theaayushstha1/job-applier-agent/main/skill/SKILL.md" -o ~/.claude/skills/apply-job/SKILL.md
-curl -fsSL "https://raw.githubusercontent.com/theaayushstha1/job-applier-agent/main/skill/WORKFLOWS.md" -o ~/.claude/skills/apply-job/WORKFLOWS.md
-curl -fsSL "https://raw.githubusercontent.com/theaayushstha1/job-applier-agent/main/skill/SETUP.md" -o ~/.claude/skills/apply-job/SETUP.md
-curl -fsSL "https://raw.githubusercontent.com/theaayushstha1/job-applier-agent/main/skill/profile-template.json" -o ~/.claude/skills/apply-job/profile-template.json
+curl -fsSL "https://raw.githubusercontent.com/theaayushstha1/job-applier-agent/main/skills/apply-job/SKILL.md" -o ~/.claude/skills/apply-job/SKILL.md
+curl -fsSL "https://raw.githubusercontent.com/theaayushstha1/job-applier-agent/main/skills/apply-job/WORKFLOWS.md" -o ~/.claude/skills/apply-job/WORKFLOWS.md
+curl -fsSL "https://raw.githubusercontent.com/theaayushstha1/job-applier-agent/main/skills/apply-job/SETUP.md" -o ~/.claude/skills/apply-job/SETUP.md
+curl -fsSL "https://raw.githubusercontent.com/theaayushstha1/job-applier-agent/main/skills/apply-job/profile-template.json" -o ~/.claude/skills/apply-job/profile-template.json
 
 # Download templates
 echo "📝 Setting up templates..."

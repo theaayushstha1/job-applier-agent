@@ -2,8 +2,14 @@
 
 🤖 Automated job applications with Claude Code. Apply to 100+ jobs with personalized resumes, cover letters, and recruiter outreach.
 
-## Install (One Command)
+## Install
 
+### Option 1: skills.sh (Recommended)
+```bash
+npx skills add theaayushstha1/job-applier-agent
+```
+
+### Option 2: Manual Install
 ```bash
 curl -fsSL https://raw.githubusercontent.com/theaayushstha1/job-applier-agent/main/install.sh | bash
 ```
