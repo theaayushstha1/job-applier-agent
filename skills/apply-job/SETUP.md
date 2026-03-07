@@ -24,20 +24,23 @@ Complete installation and configuration guide for the Job Application Agent.
 
 ## Quick Install
 
-### Option 1: One-Line Install (Recommended)
+### Option 1: Install via npx (Recommended)
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/YOUR_USERNAME/job-applier-agent/main/install.sh | bash
+npx skills add https://github.com/theaayushstha1/job-applier-agent --skill apply-job
 ```
 
 ### Option 2: Clone and Setup
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/job-applier-agent.git ~/job-applier-agent
+git clone https://github.com/theaayushstha1/job-applier-agent.git ~/job-applier-agent
+
+# Review the install script before running
+cat ~/job-applier-agent/install.sh
 
 # Run setup script
-cd ~/job-applier-agent && ./install.sh
+cd ~/job-applier-agent && bash install.sh
 ```
 
 ---

@@ -4,7 +4,7 @@ description: Automated job applications with AI-powered resume tailoring, cover 
 license: MIT
 metadata:
   author: theaayushstha1
-  version: "3.1.0"
+  version: "3.2.0"
 allowed-tools:
   - Read
   - Write
@@ -13,7 +13,6 @@ allowed-tools:
   - Grep
   - WebFetch
   - WebSearch
-  - Bash
   - mcp__playwright__browser_navigate
   - mcp__playwright__browser_snapshot
   - mcp__playwright__browser_click
@@ -22,9 +21,6 @@ allowed-tools:
   - mcp__playwright__browser_file_upload
   - mcp__playwright__browser_take_screenshot
   - mcp__playwright__browser_wait_for
-  - mcp__playwright__browser_evaluate
-  - mcp__playwright__browser_console_messages
-  - mcp__playwright__browser_run_code
   - mcp__playwright__browser_press_key
 ---
 
@@ -173,20 +169,13 @@ See [WORKFLOWS.md](WORKFLOWS.md) for detailed outreach steps.
 
 ---
 
-## Email Discovery
+## Recruiter Contact Discovery
 
-### Common Patterns (try in order)
+Use publicly available contact information only:
 ```
-Startups:      firstname@company.com
-Mid-size:      firstname.lastname@company.com, flastname@company.com
-Enterprise:    firstname.lastname@company.com, firstnamel@company.com
-```
-
-### Discovery Method
-```
-1. WebSearch: "[Company] email format site:rocketreach.co"
-2. WebSearch: "[Name] [Company] email"
-3. Apply pattern to recruiter names
+1. Check the recruiter's LinkedIn profile for contact info
+2. Check the company careers page for recruiter contact details
+3. Use the company's public contact form if no direct contact is available
 ```
 
 ---

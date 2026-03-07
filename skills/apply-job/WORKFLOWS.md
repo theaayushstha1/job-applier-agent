@@ -225,22 +225,13 @@ Average Fit Score: 7.2
    - LinkedIn URL
 ```
 
-### Step 2: Discover Email Addresses
+### Step 2: Find Recruiter Contact Info
 
 ```
-1. WebSearch: "<company> email format site:rocketreach.co"
-   - Extract pattern (e.g., "firstname.lastname@company.com")
-
-2. For each recruiter, generate email:
-   - firstname@company.com
-   - firstname.lastname@company.com
-   - flastname@company.com
-   - firstnamel@company.com
-
-3. Common patterns by company size:
-   - Startups (<100): firstname@company.com
-   - Mid-size (100-1000): firstname.lastname@company.com
-   - Enterprise (1000+): flastname@company.com
+1. Check each recruiter's LinkedIn profile for public email/contact info
+2. Check the company careers page for recruiter contact details
+3. Look for the company's public contact or referral form
+4. Only use publicly listed contact information
 ```
 
 ### Step 3: Send Cold Emails (PRIMARY)
