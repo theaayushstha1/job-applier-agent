@@ -68,7 +68,7 @@ Step-by-step workflows for every command in the job application agent.
    - Mission: AI/Tech=10, Other=5
 
 5. Calculate average score
-   - >= 5.0: AUTO-PROCEED
+   - >= 5.0: Proceed to next phase
    - < 5.0: Notify user, wait for confirmation
 ```
 
@@ -169,7 +169,7 @@ Step-by-step workflows for every command in the job application agent.
 
 3. Take pre-submit screenshot
 
-4. Submit application (AUTO-PROCEED)
+4. Confirm with user, then submit application
 
 5. Take confirmation screenshot
    - Save to ~/job-applier-agent/screenshots/<company>_<date>.png
@@ -231,7 +231,7 @@ Step-by-step workflows for every command in the job application agent.
    - CompanyB: Requires security clearance
    - CompanyC: Fit score 3.2 (too low)
 
-6. AUTO-PROCEED with qualifying jobs (or user picks count)
+6. Proceed with qualifying jobs (user can specify count)
 
 7. For each selected job:
    - Run full Workflow 1
@@ -636,7 +636,7 @@ Follow-ups Due: 5 applications
    - To: discovered email
    - Subject: "Referral Request - [Role] Application | [School] Senior"
    - Body: Use cold email template from profile
-4. Send (AUTO-PROCEED)
+4. Confirm with user, then send
 5. Track: email_sent=true, email_date=today
 ```
 

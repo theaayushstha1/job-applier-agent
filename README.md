@@ -91,12 +91,15 @@ Add to `~/.claude/settings.json`:
 }
 ```
 
-## Privacy
+## Security and Privacy
 
-- All data stays local on your machine
-- No external servers or data collection
-- Emails sent from YOUR Gmail account
-- Only uses publicly available recruiter contact info
+- **No credentials stored**: The skill uses your existing browser sessions (Gmail, LinkedIn). No passwords or tokens are saved.
+- **All data stays local**: Profile data, applications tracking, and generated files are stored on your machine only.
+- **No external servers**: No data is sent to any third-party service. Emails go through your own Gmail account.
+- **User confirmation required**: The skill confirms before submitting applications, sending emails, or sending LinkedIn requests.
+- **Input sanitization**: Job descriptions are treated as untrusted input and used only for text comparison (keyword matching, scoring). No JD content is executed as code.
+- **Public info only**: Recruiter contact discovery uses only publicly available information from LinkedIn profiles and company career pages.
+- **No shell execution**: The skill does not use Bash or any shell execution tools. All operations use safe, scoped tool calls (file read/write, browser navigation).
 
 ## License
 
